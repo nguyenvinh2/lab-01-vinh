@@ -1,0 +1,107 @@
+@media only screen and (max-width: 767px) {
+  .top {
+    font-size: medium;
+    width: 100%;
+    height: 125px;
+    background-color: violet;
+  }
+  .top:first-child {
+    background-color: hotpink;
+  }
+  .top:last-child {
+    background-color: yellowgreen;
+  }
+  .bottom {
+    font-size: medium;
+    width: 50%;
+    height: 250px;
+    background-color: darkkhaki;
+    display: inline-block;
+  }
+  .bottom:first-child {
+    background-color: seagreen;
+  }
+  .bottom:nth-child(1) {
+    background-color: paleturquoise;
+  }
+  .bottom:nth-child(2) {
+    background-color: lawngreen
+  }
+  .bottom:last-child {
+    background-color: teal;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .top {
+    font-size: medium;
+    clear: both;
+    width: 50%;
+    height: 200px;
+    background-color: aquamarine;
+    display: inline-block;
+  }
+  .top:first-child {
+    background-color: beige;
+  }
+  .top:last-child {
+    background-color: darkcyan;
+  }
+  .bottom {
+    font-size: medium;
+    clear: both;
+    width: 25%;
+    height: 250px;
+    background-color: forestgreen;
+    display: inline-block;
+  }
+  .bottom:first-child {
+    background-color: fuchsia;
+  }
+  .bottom:nth-child(1) {
+    background-color: darkmagenta;
+  }
+  .bottom:nth-child(2) {
+    background-color: floralwhite
+  }
+  .bottom:last-child {
+    background-color: dodgerblue;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .top {
+    font-size: medium;
+    clear: both;
+    width: 380px;
+    height: 200px;
+    background-color: aquamarine;
+    display: inline-block;
+  }
+  .top:first-child {
+    background-color: beige
+  }
+  .top:last-child {
+    background-color: darkcyan;
+  }
+  .bottom {
+    font-size: medium;
+    clear: both;
+    width: 190px;
+    height: 250px;
+    background-color: forestgreen;
+    display: inline-block;
+  }
+  .bottom:first-child {
+    background-color: fuchsia;
+  }
+  .bottom:nth-child(1) {
+    background-color: darkmagenta;
+  }
+  .bottom:nth-child(2) {
+    background-color: floralwhite
+  }
+  .bottom:last-child {
+    background-color: dodgerblue;
+  }
+}
