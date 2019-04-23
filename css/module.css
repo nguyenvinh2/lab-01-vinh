@@ -1,0 +1,75 @@
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 959px) {
+  .top {
+    font-size: medium;
+    clear: both;
+    width: 50%;
+    height: 200px;
+    background-color: aquamarine;
+    display: inline-block;
+  }
+  .top:first-child {
+    background-color: beige
+  }
+  .top:last-child {
+    background-color: darkcyan;
+  }
+  .bottom {
+    font-size: medium;
+    clear: both;
+    width: 25%;
+    height: 250px;
+    background-color: forestgreen;
+    display: inline-block;
+  }
+  .bottom:first-child {
+    background-color: fuchsia;
+  }
+  .bottom:nth-child(1) {
+    background-color: darkmagenta;
+  }
+  .bottom:nth-child(2) {
+    background-color: floralwhite
+  }
+  .bottom:last-child {
+    background-color: dodgerblue;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .top {
+    font-size: medium;
+    clear: both;
+    width: 380px;
+    height: 200px;
+    background-color: aquamarine;
+    display: inline-block;
+  }
+  .top:first-child {
+    background-color: beige
+  }
+  .top:last-child {
+    background-color: darkcyan;
+  }
+  .bottom {
+    font-size: medium;
+    clear: both;
+    width: 190px;
+    height: 250px;
+    background-color: forestgreen;
+    display: inline-block;
+  }
+  .bottom:first-child {
+    background-color: fuchsia;
+  }
+  .bottom:nth-child(1) {
+    background-color: darkmagenta;
+  }
+  .bottom:nth-child(2) {
+    background-color: floralwhite
+  }
+  .bottom:last-child {
+    background-color: dodgerblue;
+  }
+}
