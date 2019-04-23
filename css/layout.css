@@ -1,0 +1,11 @@
+p {
+  text-align: center;
+  background-color: inherit;
+  /*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: perspective(1px) translateY(-50%);
+}
+
