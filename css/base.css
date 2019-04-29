@@ -29,7 +29,7 @@ p {
 /* desktop */
 @media only screen and (min-width: 960px) {
   body {
-    width: 960px;
+    width: 80%;
     margin: 50px auto;
     background-color: azure;
   }
