@@ -40,38 +40,36 @@
   .top {
     width: 50%;
     height: 200px;
-    background-color: aquamarine;
-    display: inline-block;
+    background-color: floralwhite;
   }
   .top:first-child {
-    background-color: beige;
+    background-color: olive;
   }
   .top:last-child {
-    background-color: darkcyan;
+    background-color: darkorange;
   }
   .bottom {
     width: 25%;
     height: 250px;
-    background-color: forestgreen;
-    display: inline-block;
+    background-color: sandybrown;
   }
   .bottom:first-child {
-    background-color: fuchsia;
+    background-color: orangered;
   }
   .bottom:nth-child(1) {
-    background-color: darkmagenta;
+    background-color: darksalmon;
   }
   .bottom:nth-child(2) {
-    background-color: floralwhite
+    background-color: rebeccapurple
   }
   .bottom:last-child {
-    background-color: dodgerblue;
+    background-color: bisque;
   }
 }
 
 @media only screen and (min-width: 960px) {
   .top {
-    width: 380px;
+    width: 50%;
     height: 200px;
     background-color: aquamarine;
   }
@@ -82,7 +80,7 @@
     background-color: darkcyan;
   }
   .bottom {
-    width: 190px;
+    width: 25%;
     height: 250px;
     background-color: forestgreen;
   }
