@@ -13,7 +13,7 @@ p {
 @media only screen and (max-width: 767px) {
   body {
     margin: 50px auto;
-    width: 480px;
+    width: 90%;
     background-color: azure;
   }
 }
