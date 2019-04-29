@@ -1,4 +1,22 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+article section {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 767px) {
+  main {
+    display: block;
+  }
+  
+  article section {
+    display: block;
+  }
+  
   header {
     width: 100%;
     height: 75px;
@@ -15,9 +33,8 @@
   }
   article {
     width: 100%;
-    font-size: 0;
   }
-  footer {
+  .footer {
     width: 100%;
     height: 80px;
     background-color: darkgoldenrod;
@@ -37,20 +54,15 @@
   aside {
     width: 20.8%;
     height: 600px;
-    float: left;
     background-color: blueviolet;
   }
   article {
     width: 79.2%;
-    float: right;
-    font-size: 0;
   }
-  footer {
-    clear: both;
-    width: 79.2%;
+  .footer {
+    width: 100%;
     height: 150px;
     background-color: aqua;
-    display: inline-block;
   }
 }
 
@@ -67,19 +79,15 @@
   aside {
     width: 200px;
     height: 600px;
-    float: left;
     background-color: blueviolet;
   }
   article {
     width: 760px;
-    float: right;
-    font-size: 0;
+    height: 450px;
   }
-  footer {
-    clear: both;
+  .footer{
     width: 760px;
     height: 150px;
-    background-color: aqua;
-    display: inline-block;
+    background-color: gold;
   }
 }
